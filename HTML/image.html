@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="">this is a test paragraph</p>
+    <img src="nasa.jpg" alt="NASA earth image" width="200" height="200" crossorigin="anonymous" decoding="default" fetchpriority="low" srcset="nasa.jpg 200w,nasa.jpg  200w" sizes="(max-width: 710px) 120px,
+    (max-width: 991px) 193px">
+
+    <img src="https://images.unsplash.com/photo-1494905998402-395d579af36f?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80" usemap="#image-map">
+
+    <map name="image-map">
+        <area target=""  onclick="func1()" alt="" title="" href="" coords="81,491,316,123" shape="rect">
+        <area target="" onclick="func2()" alt="" title="" href="" coords="789,404,395,46" shape="0">
+    </map>
+    <script>
+        function func1(){
+            alert("function one");
+        }
+        function func2(){
+            alert("function two");
+        }
+    </script>
+    <a href="abc.js"><img alt="car image part 2" width="200" height="200"  srcset="https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 500w, 
+    https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80 800w" fetchpriority="high" loading="lazy" ismap></a>
+</body>
+</html>
